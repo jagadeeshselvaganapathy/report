@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>https://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="https://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Groovy Development Tools</title>
+    <link>https://marketplace.eclipse.org/content/groovy-development-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/groovy-logo-medium.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/aclement/listings&quot; title=&quot;Andrew Clement&quot;&gt;Andrew Clement&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2012-07-04 13:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2022-11-12 09:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Groovy Development Tools (GDT) provides Eclipse and Maven (m2e) support for the &lt;a href=&quot;http://groovy-lang.org&quot; rel=&quot;nofollow&quot;&gt;Apache Groovy&lt;/a&gt; programming language. GDT adds full-featured IDE support including editors, wizards, content assist, debugging, refactoring and searching.&lt;/p&gt;
+&lt;p&gt;GDT requires Eclipse Java Development Tools (JDT) as it builds upon Java/JVM support, including Java interoperability (bi-directional dependencies via joint compilation). &lt;strong&gt;If your Eclipse flavor does not include JDT, you must install it first.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GDT does not provide any direct support for &lt;a href=&quot;http://grails.org&quot; rel=&quot;nofollow&quot;&gt;Grails&lt;/a&gt;. If you want Grails tooling, please consider the Groovy-Grails Tools Suite or &lt;a href=&quot;https://github.com/spring-projects/grails-ide&quot; rel=&quot;nofollow&quot;&gt;spring-projects/grails-ide&lt;/a&gt; for your Grails projects.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 04 Jul 2012 17:05:41 +0000</pubDate>
+ <dc:creator>aclement</dc:creator>
+ <guid isPermaLink="false">321859 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/groovy-development-tools#comments</comments>
+  </item>
+  <item>
+    <title>Sage 50 UK JDBC Driver</title>
+    <link>https://marketplace.eclipse.org/content/sage-50-uk-jdbc-driver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/SageUK.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emadariaga/listings&quot; title=&quot;Eric Madariaga&quot;&gt;Eric Madariaga&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-06-25 09:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2022-11-11 11:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CData%22&quot;&gt;CData&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Sage 50 UK JDBC Driver is a powerful tool that allows you to easily connect-to live Sage 50 UK data through any JDBC capable application or tool! With the Driver users can access Sage 50 UK the same way that they would connect to any other JDBC data source. The Drivers are completely self-contained; no additional software installation is required.&lt;/p&gt;
+&lt;h2&gt;Enterprise-class JDBC Connectivity&lt;/h2&gt;
+&lt;p&gt;The Sage 50 UK JDBC Driver offers the most natural way to access Sage 50 UK data from any Java/J2EE application. Simply use the Sage 50 UK Driver to connect and access data just as you would access any traditional database. The drivers is completely self-contained - no additional software installation is required!&lt;/p&gt;
+&lt;ul class=&quot;blue_bullets&quot;&gt;&lt;li&gt;Access Sage 50 UK data through widely available tools. The JDBC interface offers the greatest accessibility to Sage 50 UK data from Java based applications and developer technologies.&lt;/li&gt;
+&lt;li&gt;Advanced wire-protocol SSL security for remote connectivity.&lt;/li&gt;
+&lt;li&gt;Faster application deployment and configuration.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#eclipseintegration&quot; rel=&quot;nofollow&quot;&gt;Seamless Eclipse integration with live access to data through the Eclipse Data Explorer. &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;h2&gt;Connect To Sage 50 UK From BI, ETL, &amp;amp; Reporting Tools&lt;/h2&gt;
+&lt;p&gt;JDBC is the most widely supported interface for connecting Java-based applications with data. All kinds of BI, Reporting, ETL, Database, and Analytics tools offer the ability to read and write data via JDBC connectivity.&lt;/p&gt;
+&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;ul class=&quot;tools&quot;&gt;&lt;li&gt;Aqua Data Studio&lt;/li&gt;
+&lt;li&gt;Cisco Information Server&lt;/li&gt;
+&lt;li&gt;CloverETL&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Crystal Reports&lt;/li&gt;
+&lt;li&gt;DBeaver&lt;/li&gt;
+&lt;li&gt;DbVisualizer&lt;/li&gt;
+&lt;li&gt;IBM WebSphere&lt;/li&gt;
+&lt;li&gt;Informatica&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;JBoss&lt;/li&gt;
+&lt;li&gt;Jetty&lt;/li&gt;
+&lt;li&gt;KNIME&lt;/li&gt;
+&lt;li&gt;NetBeans IDE&lt;/li&gt;
+&lt;li&gt;Oracle WebLogic&lt;/li&gt;
+&lt;li&gt;Oracle WareHouse Builder&lt;/li&gt;
+&lt;li&gt;RazorSQL&lt;/li&gt;
+&lt;li&gt;... and many more!&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;The Sage 50 UK Driver wraps the complexity of accessing Sage 50 UK services in an easy-to-integrate, pure Java JDBC Driver. Applications then access Sage 50 UK through the Sage 50 UK Driver with simple Transact-SQL.&lt;/p&gt;
+&lt;p&gt;The CData JDBC Driver for Sage 50 UK hides the complexity of accessing data and provides additional powerful security features, smart caching, batching, socket management, and more.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 class=&quot;clear blue&quot;&gt;Eclipse Integration - Data Explorer&lt;/h2&gt;
+&lt;p&gt;This JDBC Driver can be used to access and explore data directly from the Data Source Explorers included in popular java IDEs.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;It&#039;s easy! Developers can connect the Data Source Explorer to the JDBC Driver, just like connecting to any standard database.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Add a new Data Connection from the server explorer and select the Data Source&lt;/li&gt;
+&lt;li&gt;Configure the basic connection properties to access your account data.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt; &lt;/p&gt;
+
+&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-AddConnectionEclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;
+ 
+
+&lt;p&gt;Explore real-time data! This JDBC Driver makes it easy to access live data directly from any modern Java IDE.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;After configuring the connection, explore the tables, views, and stored procedures provided by the JDBC Driver.&lt;/li&gt;
+&lt;li&gt;These constructs return live UK data that developers can work with directly from within the IDE.&lt;/li&gt;
+&lt;/ol&gt;&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-retrievedataeclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 25 Jun 2015 13:47:52 +0000</pubDate>
+ <dc:creator>emadariaga</dc:creator>
+ <guid isPermaLink="false">2408623 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/sage-50-uk-jdbc-driver#comments</comments>
+  </item>
+  <item>
+    <title>NetSuite JDBC Driver</title>
+    <link>https://marketplace.eclipse.org/content/netsuite-jdbc-driver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Netsuite.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emadariaga/listings&quot; title=&quot;Eric Madariaga&quot;&gt;Eric Madariaga&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-06-04 09:20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2022-11-11 11:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CData%22&quot;&gt;CData&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The NetSuite JDBC Driver is a powerful tool that allows you to easily connect-to live NetSuite CRM &amp;amp; ERP data through any JDBC capable application or tool! With the Driver users can access NetSuite CRM &amp;amp; ERP the same way that they would connect to any other JDBC data source. The Drivers are completely self-contained; no additional software installation is required.&lt;/p&gt;
+&lt;h2&gt;Enterprise-class JDBC Connectivity&lt;/h2&gt;
+&lt;p&gt;The NetSuite JDBC Driver offers the most natural way to access NetSuite data from any Java/J2EE application. Simply use the NetSuite Driver to connect and access data just as you would access any traditional database.&lt;/p&gt;
+&lt;ul class=&quot;blue_bullets&quot;&gt;&lt;li&gt;Access NetSuite data through widely available tools. The JDBC interface offers the greatest accessibility to NetSuite data from Java based applications and developer technologies.&lt;/li&gt;
+&lt;li&gt;Advanced wire-protocol SSL security for remote connectivity.&lt;/li&gt;
+&lt;li&gt;Faster application deployment and configuration.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;NetSuite Application Integration&lt;/h2&gt;
+&lt;p&gt;The NetSuite Driver has the same JDBC architecture as the JDBC drivers for MySQL and OLEDB, including Connection, Statement and ResultSet objects. Because of this you can now access NetSuite data in an easy, familiar way. You can use the NetSuite Driver through popular IDEs (Eclipse, IntelliJ, NetBeans, etc.), in code through familiar classes, and in data controls available through Swing, Eclipse SWT Widgets, etc.&lt;/p&gt;
+&lt;h2&gt;Connect To NetSuite From BI, ETL, &amp;amp; Reporting Tools&lt;/h2&gt;
+&lt;p&gt;&amp;lt;&lt;/p&gt;
+&lt;p&gt;JDBC is the most widely supported interface for connecting Java-based applications with data. All kinds of BI, Reporting, ETL, Database, and Analytics tools offer the ability to read and write data via JDBC connectivity.&lt;/p&gt;
+&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;ul class=&quot;tools&quot;&gt;&lt;li&gt;Aqua Data Studio&lt;/li&gt;
+&lt;li&gt;Cisco Information Server&lt;/li&gt;
+&lt;li&gt;CloverETL&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Crystal Reports&lt;/li&gt;
+&lt;li&gt;DBeaver&lt;/li&gt;
+&lt;li&gt;DbVisualizer&lt;/li&gt;
+&lt;li&gt;IBM WebSphere&lt;/li&gt;
+&lt;li&gt;Informatica&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;JBoss&lt;/li&gt;
+&lt;li&gt;Jetty&lt;/li&gt;
+&lt;li&gt;KNIME&lt;/li&gt;
+&lt;li&gt;NetBeans IDE&lt;/li&gt;
+&lt;li&gt;Oracle WebLogic&lt;/li&gt;
+&lt;li&gt;Oracle WareHouse Builder&lt;/li&gt;
+&lt;li&gt;RazorSQL&lt;/li&gt;
+&lt;li&gt;... and many more!&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 04 Jun 2015 13:20:34 +0000</pubDate>
+ <dc:creator>emadariaga</dc:creator>
+ <guid isPermaLink="false">2374593 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/netsuite-jdbc-driver#comments</comments>
+  </item>
+  <item>
+    <title>Zoho CRM JDBC Driver</title>
+    <link>https://marketplace.eclipse.org/content/zoho-crm-jdbc-driver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/zoho.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emadariaga/listings&quot; title=&quot;Eric Madariaga&quot;&gt;Eric Madariaga&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-06-25 12:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2022-11-11 11:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CData%22&quot;&gt;CData&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Zoho CRM JDBC Driver is a powerful tool that allows you to easily connect-to live Zoho CRM data through any JDBC capable application or tool! With the Driver users can access Zoho CRM the same way that they would connect to any other JDBC data source. The Drivers are completely self-contained; no additional software installation is required.&lt;/p&gt;
+&lt;h2&gt;Enterprise-class JDBC Connectivity&lt;/h2&gt;
+&lt;p&gt;The Zoho CRM JDBC Driver offers the most natural way to access Zoho CRM data from any Java/J2EE application. Simply use the Zoho CRM Driver to connect and access data just as you would access any traditional database. The drivers is completely self-contained - no additional software installation is required!&lt;/p&gt;
+&lt;ul class=&quot;blue_bullets&quot;&gt;&lt;li&gt;Access Zoho CRM data through widely available tools. The JDBC interface offers the greatest accessibility to Zoho CRM data from Java based applications and developer technologies.&lt;/li&gt;
+&lt;li&gt;Advanced wire-protocol SSL security for remote connectivity.&lt;/li&gt;
+&lt;li&gt;Faster application deployment and configuration.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#eclipseintegration&quot; rel=&quot;nofollow&quot;&gt;Seamless Eclipse integration with live access to data through the Eclipse Data Explorer. &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;h2&gt;Connect To Zoho CRM From BI, ETL, &amp;amp; Reporting Tools&lt;/h2&gt;
+&lt;p&gt;JDBC is the most widely supported interface for connecting Java-based applications with data. All kinds of BI, Reporting, ETL, Database, and Analytics tools offer the ability to read and write data via JDBC connectivity.&lt;/p&gt;
+&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;ul class=&quot;tools&quot;&gt;&lt;li&gt;Aqua Data Studio&lt;/li&gt;
+&lt;li&gt;Cisco Information Server&lt;/li&gt;
+&lt;li&gt;CloverETL&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Crystal Reports&lt;/li&gt;
+&lt;li&gt;DBeaver&lt;/li&gt;
+&lt;li&gt;DbVisualizer&lt;/li&gt;
+&lt;li&gt;IBM WebSphere&lt;/li&gt;
+&lt;li&gt;Informatica&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;JBoss&lt;/li&gt;
+&lt;li&gt;Jetty&lt;/li&gt;
+&lt;li&gt;KNIME&lt;/li&gt;
+&lt;li&gt;NetBeans IDE&lt;/li&gt;
+&lt;li&gt;Oracle WebLogic&lt;/li&gt;
+&lt;li&gt;Oracle WareHouse Builder&lt;/li&gt;
+&lt;li&gt;RazorSQL&lt;/li&gt;
+&lt;li&gt;... and many more!&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;The Zoho CRM Driver wraps the complexity of accessing Zoho CRM services in an easy-to-integrate, pure Java JDBC Driver. Applications then access Zoho CRM through the Zoho CRM Driver with simple Transact-SQL.&lt;/p&gt;
+&lt;p&gt;The CData JDBC Driver for Zoho CRM hides the complexity of accessing data and provides additional powerful security features, smart caching, batching, socket management, and more.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 class=&quot;clear blue&quot;&gt;Eclipse Integration - Data Explorer&lt;/h2&gt;
+&lt;p&gt;This JDBC Driver can be used to access and explore data directly from the Data Source Explorers included in popular java IDEs.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;It&#039;s easy! Developers can connect the Data Source Explorer to the JDBC Driver, just like connecting to any standard database.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Add a new Data Connection from the server explorer and select the Data Source&lt;/li&gt;
+&lt;li&gt;Configure the basic connection properties to access your account data.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt; &lt;/p&gt;
+
+&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-AddConnectionEclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;
+ 
+
+&lt;p&gt;Explore real-time data! This JDBC Driver makes it easy to access live data directly from any modern Java IDE.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;After configuring the connection, explore the tables, views, and stored procedures provided by the JDBC Driver.&lt;/li&gt;
+&lt;li&gt;These constructs return live UK data that developers can work with directly from within the IDE.&lt;/li&gt;
+&lt;/ol&gt;&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-retrievedataeclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 25 Jun 2015 16:01:38 +0000</pubDate>
+ <dc:creator>emadariaga</dc:creator>
+ <guid isPermaLink="false">2408853 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/zoho-crm-jdbc-driver#comments</comments>
+  </item>
+  <item>
+    <title>MS Project JDBC Driver</title>
+    <link>https://marketplace.eclipse.org/content/ms-project-jdbc-driver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/MSProject.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emadariaga/listings&quot; title=&quot;Eric Madariaga&quot;&gt;Eric Madariaga&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-06-25 11:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2022-11-11 11:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CData%22&quot;&gt;CData&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The MS Project JDBC Driver is a powerful tool that allows you to easily connect-to live Microsoft Project data through any JDBC capable application or tool! With the Driver users can access Microsoft Project the same way that they would connect to any other JDBC data source. The Drivers are completely self-contained; no additional software installation is required.&lt;/p&gt;
+&lt;h2&gt;Enterprise-class JDBC Connectivity&lt;/h2&gt;
+&lt;p&gt;The MS Project JDBC Driver offers the most natural way to access Microsoft Project data from any Java/J2EE application. Simply use the MS Project Driver to connect and access data just as you would access any traditional database. The drivers is completely self-contained - no additional software installation is required!&lt;/p&gt;
+&lt;ul class=&quot;blue_bullets&quot;&gt;&lt;li&gt;Access Microsoft Project data through widely available tools. The JDBC interface offers the greatest accessibility to Microsoft Project data from Java based applications and developer technologies.&lt;/li&gt;
+&lt;li&gt;Advanced wire-protocol SSL security for remote connectivity.&lt;/li&gt;
+&lt;li&gt;Faster application deployment and configuration.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#eclipseintegration&quot; rel=&quot;nofollow&quot;&gt;Seamless Eclipse integration with live access to data through the Eclipse Data Explorer. &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;h2&gt;Connect To Microsoft Project From BI, ETL, &amp;amp; Reporting Tools&lt;/h2&gt;
+&lt;p&gt;JDBC is the most widely supported interface for connecting Java-based applications with data. All kinds of BI, Reporting, ETL, Database, and Analytics tools offer the ability to read and write data via JDBC connectivity.&lt;/p&gt;
+&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;ul class=&quot;tools&quot;&gt;&lt;li&gt;Aqua Data Studio&lt;/li&gt;
+&lt;li&gt;Cisco Information Server&lt;/li&gt;
+&lt;li&gt;CloverETL&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Crystal Reports&lt;/li&gt;
+&lt;li&gt;DBeaver&lt;/li&gt;
+&lt;li&gt;DbVisualizer&lt;/li&gt;
+&lt;li&gt;IBM WebSphere&lt;/li&gt;
+&lt;li&gt;Informatica&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;JBoss&lt;/li&gt;
+&lt;li&gt;Jetty&lt;/li&gt;
+&lt;li&gt;KNIME&lt;/li&gt;
+&lt;li&gt;NetBeans IDE&lt;/li&gt;
+&lt;li&gt;Oracle WebLogic&lt;/li&gt;
+&lt;li&gt;Oracle WareHouse Builder&lt;/li&gt;
+&lt;li&gt;RazorSQL&lt;/li&gt;
+&lt;li&gt;... and many more!&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The MS Project Driver wraps the complexity of accessing Microsoft Project services in an easy-to-integrate, pure Java JDBC Driver. Applications then access Microsoft Project through the MS Project Driver with simple Transact-SQL.&lt;/p&gt;
+&lt;p&gt;The CData JDBC Driver for MS Project hides the complexity of accessing data and provides additional powerful security features, smart caching, batching, socket management, and more.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 class=&quot;clear blue&quot;&gt;Eclipse Integration - Data Explorer&lt;/h2&gt;
+&lt;p&gt;This JDBC Driver can be used to access and explore data directly from the Data Source Explorers included in popular java IDEs.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;It&#039;s easy! Developers can connect the Data Source Explorer to the JDBC Driver, just like connecting to any standard database.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Add a new Data Connection from the server explorer and select the Data Source&lt;/li&gt;
+&lt;li&gt;Configure the basic connection properties to access your account data.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt; &lt;/p&gt;
+
+&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-AddConnectionEclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;
+ 
+
+&lt;p&gt;Explore real-time data! This JDBC Driver makes it easy to access live data directly from any modern Java IDE.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;After configuring the connection, explore the tables, views, and stored procedures provided by the JDBC Driver.&lt;/li&gt;
+&lt;li&gt;These constructs return live UK data that developers can work with directly from within the IDE.&lt;/li&gt;
+&lt;/ol&gt;&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-retrievedataeclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 25 Jun 2015 15:07:23 +0000</pubDate>
+ <dc:creator>emadariaga</dc:creator>
+ <guid isPermaLink="false">2408767 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/ms-project-jdbc-driver#comments</comments>
+  </item>
+  <item>
+    <title>Google AdWords JDBC Driver</title>
+    <link>https://marketplace.eclipse.org/content/google-adwords-jdbc-driver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Adwords.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emadariaga/listings&quot; title=&quot;Eric Madariaga&quot;&gt;Eric Madariaga&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-06-25 11:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2022-11-11 11:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CData%22&quot;&gt;CData&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Google AdWords JDBC Driver is a powerful tool that allows you to easily connect-to live Google Adwords data through any JDBC capable application or tool! With the Driver users can access Google Adwords the same way that they would connect to any other JDBC data source. The Drivers are completely self-contained; no additional software installation is required.&lt;/p&gt;
+&lt;h2&gt;Enterprise-class JDBC Connectivity&lt;/h2&gt;
+&lt;p&gt;The Google AdWords JDBC Driver offers the most natural way to access Google Adwords data from any Java/J2EE application. Simply use the Google AdWords Driver to connect and access data just as you would access any traditional database. The drivers is completely self-contained - no additional software installation is required!&lt;/p&gt;
+&lt;ul class=&quot;blue_bullets&quot;&gt;&lt;li&gt;Access Google Adwords data through widely available tools. The JDBC interface offers the greatest accessibility to Google Adwords data from Java based applications and developer technologies.&lt;/li&gt;
+&lt;li&gt;Advanced wire-protocol SSL security for remote connectivity.&lt;/li&gt;
+&lt;li&gt;Faster application deployment and configuration.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#eclipseintegration&quot; rel=&quot;nofollow&quot;&gt;Seamless Eclipse integration with live access to data through the Eclipse Data Explorer. &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;h2&gt;Connect To Google Adwords From BI, ETL, &amp;amp; Reporting Tools&lt;/h2&gt;
+&lt;p&gt;JDBC is the most widely supported interface for connecting Java-based applications with data. All kinds of BI, Reporting, ETL, Database, and Analytics tools offer the ability to read and write data via JDBC connectivity.&lt;/p&gt;
+&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;ul class=&quot;tools&quot;&gt;&lt;li&gt;Aqua Data Studio&lt;/li&gt;
+&lt;li&gt;Cisco Information Server&lt;/li&gt;
+&lt;li&gt;CloverETL&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Crystal Reports&lt;/li&gt;
+&lt;li&gt;DBeaver&lt;/li&gt;
+&lt;li&gt;DbVisualizer&lt;/li&gt;
+&lt;li&gt;IBM WebSphere&lt;/li&gt;
+&lt;li&gt;Informatica&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;JBoss&lt;/li&gt;
+&lt;li&gt;Jetty&lt;/li&gt;
+&lt;li&gt;KNIME&lt;/li&gt;
+&lt;li&gt;NetBeans IDE&lt;/li&gt;
+&lt;li&gt;Oracle WebLogic&lt;/li&gt;
+&lt;li&gt;Oracle WareHouse Builder&lt;/li&gt;
+&lt;li&gt;RazorSQL&lt;/li&gt;
+&lt;li&gt;... and many more!&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Google AdWords Driver wraps the complexity of accessing Google Adwords services in an easy-to-integrate, pure Java JDBC Driver. Applications then access Google Adwords through the Google AdWords Driver with simple Transact-SQL.&lt;/p&gt;
+&lt;p&gt;The CData JDBC Driver for Google AdWords hides the complexity of accessing data and provides additional powerful security features, smart caching, batching, socket management, and more.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 class=&quot;clear blue&quot;&gt;Eclipse Integration - Data Explorer&lt;/h2&gt;
+&lt;p&gt;This JDBC Driver can be used to access and explore data directly from the Data Source Explorers included in popular java IDEs.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;It&#039;s easy! Developers can connect the Data Source Explorer to the JDBC Driver, just like connecting to any standard database.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Add a new Data Connection from the server explorer and select the Data Source&lt;/li&gt;
+&lt;li&gt;Configure the basic connection properties to access your account data.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt; &lt;/p&gt;
+
+&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-AddConnectionEclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;
+ 
+
+&lt;p&gt;Explore real-time data! This JDBC Driver makes it easy to access live data directly from any modern Java IDE.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;After configuring the connection, explore the tables, views, and stored procedures provided by the JDBC Driver.&lt;/li&gt;
+&lt;li&gt;These constructs return live UK data that developers can work with directly from within the IDE.&lt;/li&gt;
+&lt;/ol&gt;&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-retrievedataeclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 25 Jun 2015 15:29:31 +0000</pubDate>
+ <dc:creator>emadariaga</dc:creator>
+ <guid isPermaLink="false">2408803 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/google-adwords-jdbc-driver#comments</comments>
+  </item>
+  <item>
+    <title>Exchange JDBC Driver</title>
+    <link>https://marketplace.eclipse.org/content/exchange-jdbc-driver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/exchange.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emadariaga/listings&quot; title=&quot;Eric Madariaga&quot;&gt;Eric Madariaga&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-06-25 11:50&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2022-11-11 11:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CData%22&quot;&gt;CData&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Exchange JDBC Driver is a powerful tool that allows you to easily connect-to live Microsoft Exchange data through any JDBC capable application or tool! With the Driver users can access Microsoft Exchange the same way that they would connect to any other JDBC data source. The Drivers are completely self-contained; no additional software installation is required.&lt;/p&gt;
+&lt;h2&gt;Enterprise-class JDBC Connectivity&lt;/h2&gt;
+&lt;p&gt;The Exchange JDBC Driver offers the most natural way to access Microsoft Exchange data from any Java/J2EE application. Simply use the Exchange Driver to connect and access data just as you would access any traditional database. The drivers is completely self-contained - no additional software installation is required!&lt;/p&gt;
+&lt;ul class=&quot;blue_bullets&quot;&gt;&lt;li&gt;Access Microsoft Exchange data through widely available tools. The JDBC interface offers the greatest accessibility to Microsoft Exchange data from Java based applications and developer technologies.&lt;/li&gt;
+&lt;li&gt;Advanced wire-protocol SSL security for remote connectivity.&lt;/li&gt;
+&lt;li&gt;Faster application deployment and configuration.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#eclipseintegration&quot; rel=&quot;nofollow&quot;&gt;Seamless Eclipse integration with live access to data through the Eclipse Data Explorer. &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;h2&gt;Connect To Microsoft Exchange From BI, ETL, &amp;amp; Reporting Tools&lt;/h2&gt;
+&lt;p&gt;JDBC is the most widely supported interface for connecting Java-based applications with data. All kinds of BI, Reporting, ETL, Database, and Analytics tools offer the ability to read and write data via JDBC connectivity.&lt;/p&gt;
+&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;ul class=&quot;tools&quot;&gt;&lt;li&gt;Aqua Data Studio&lt;/li&gt;
+&lt;li&gt;Cisco Information Server&lt;/li&gt;
+&lt;li&gt;CloverETL&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Crystal Reports&lt;/li&gt;
+&lt;li&gt;DBeaver&lt;/li&gt;
+&lt;li&gt;DbVisualizer&lt;/li&gt;
+&lt;li&gt;IBM WebSphere&lt;/li&gt;
+&lt;li&gt;Informatica&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;JBoss&lt;/li&gt;
+&lt;li&gt;Jetty&lt;/li&gt;
+&lt;li&gt;KNIME&lt;/li&gt;
+&lt;li&gt;NetBeans IDE&lt;/li&gt;
+&lt;li&gt;Oracle WebLogic&lt;/li&gt;
+&lt;li&gt;Oracle WareHouse Builder&lt;/li&gt;
+&lt;li&gt;RazorSQL&lt;/li&gt;
+&lt;li&gt;... and many more!&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;The Exchange Driver wraps the complexity of accessing Microsoft Exchange services in an easy-to-integrate, pure Java JDBC Driver. Applications then access Microsoft Exchange through the Exchange Driver with simple Transact-SQL.&lt;/p&gt;
+&lt;p&gt;The CData JDBC Driver for Exchange hides the complexity of accessing data and provides additional powerful security features, smart caching, batching, socket management, and more.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 class=&quot;clear blue&quot;&gt;Eclipse Integration - Data Explorer&lt;/h2&gt;
+&lt;p&gt;This JDBC Driver can be used to access and explore data directly from the Data Source Explorers included in popular java IDEs.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;It&#039;s easy! Developers can connect the Data Source Explorer to the JDBC Driver, just like connecting to any standard database.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Add a new Data Connection from the server explorer and select the Data Source&lt;/li&gt;
+&lt;li&gt;Configure the basic connection properties to access your account data.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt; &lt;/p&gt;
+
+&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-AddConnectionEclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;
+ 
+
+&lt;p&gt;Explore real-time data! This JDBC Driver makes it easy to access live data directly from any modern Java IDE.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;After configuring the connection, explore the tables, views, and stored procedures provided by the JDBC Driver.&lt;/li&gt;
+&lt;li&gt;These constructs return live UK data that developers can work with directly from within the IDE.&lt;/li&gt;
+&lt;/ol&gt;&lt;a class=&quot;highslide enlarge&quot; href=&quot;http://www.cdata.com/drivers/_img/jdbc-retrievedataeclipse.png&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 25 Jun 2015 15:50:26 +0000</pubDate>
+ <dc:creator>emadariaga</dc:creator>
+ <guid isPermaLink="false">2408836 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/exchange-jdbc-driver#comments</comments>
+  </item>
+  <item>
+    <title>QuickBooks JDBC Driver</title>
+    <link>https://marketplace.eclipse.org/node/553963</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Quickbooks.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emadariaga/listings&quot; title=&quot;Eric Madariaga&quot;&gt;Eric Madariaga&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2012-11-29 14:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2022-11-11 10:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CData%22&quot;&gt;CData&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The QuickBooks JDBC Driver is a powerful tool that allows you to easily connect-to live QuickBooks Desktop data through any JDBC capable application or tool! With the Driver users can access QuickBooks Desktop the same way that they would connect to any other JDBC data source. The Drivers are completely self-contained; no additional software installation is required.&lt;/p&gt;
+&lt;h2&gt;Enterprise-class JDBC Connectivity&lt;/h2&gt;
+&lt;p&gt;The QuickBooks JDBC Driver offers the most natural way to access QuickBooks data from any Java/J2EE application. Simply use the QuickBooks Driver to connect and access data just as you would access any traditional database. The drivers is completely self-contained - no additional software installation is required!&lt;/p&gt;
+&lt;ul class=&quot;blue_bullets&quot;&gt;&lt;li&gt;Access QuickBooks data through widely available tools. The JDBC interface offers the greatest accessibility to QuickBooks data from Java based applications and developer technologies.&lt;/li&gt;
+&lt;li&gt;Advanced wire-protocol SSL security for remote connectivity.&lt;/li&gt;
+&lt;li&gt;Faster application deployment and configuration.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;QuickBooks Application Integration&lt;/h2&gt;
+&lt;p&gt;The QuickBooks Driver has the same JDBC architecture as the JDBC drivers for MySQL and OLEDB, including Connection, Statement and ResultSet objects. Because of this you can now access QuickBooks data in an easy, familiar way. You can use the QuickBooks Driver through popular IDEs (Eclipse, IntelliJ, NetBeans, etc.), in code through familiar classes, and in data controls available through Swing, Eclipse SWT Widgets, etc.&lt;/p&gt;
+&lt;h2&gt;Connect To QuickBooks From BI, ETL, &amp;amp; Reporting Tools&lt;/h2&gt;
+&lt;p&gt;&amp;lt;&lt;/p&gt;
+&lt;p&gt;JDBC is the most widely supported interface for connecting Java-based applications with data. All kinds of BI, Reporting, ETL, Database, and Analytics tools offer the ability to read and write data via JDBC connectivity.&lt;/p&gt;
+&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;ul class=&quot;tools&quot;&gt;&lt;li&gt;Aqua Data Studio&lt;/li&gt;
+&lt;li&gt;Cisco Information Server&lt;/li&gt;
+&lt;li&gt;CloverETL&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Crystal Reports&lt;/li&gt;
+&lt;li&gt;DBeaver&lt;/li&gt;
+&lt;li&gt;DbVisualizer&lt;/li&gt;
+&lt;li&gt;IBM WebSphere&lt;/li&gt;
+&lt;li&gt;Informatica&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;JBoss&lt;/li&gt;
+&lt;li&gt;Jetty&lt;/li&gt;
+&lt;li&gt;KNIME&lt;/li&gt;
+&lt;li&gt;NetBeans IDE&lt;/li&gt;
+&lt;li&gt;Oracle WebLogic&lt;/li&gt;
+&lt;li&gt;Oracle WareHouse Builder&lt;/li&gt;
+&lt;li&gt;RazorSQL&lt;/li&gt;
+&lt;li&gt;... and many more!&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 29 Nov 2012 19:40:10 +0000</pubDate>
+ <dc:creator>emadariaga</dc:creator>
+ <guid isPermaLink="false">553963 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/node/553963#comments</comments>
+  </item>
+  <item>
+    <title>Salesforce JDBC Driver</title>
+    <link>https://marketplace.eclipse.org/node/553630</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Salesforce.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emadariaga/listings&quot; title=&quot;Eric Madariaga&quot;&gt;Eric Madariaga&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2012-11-29 11:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2022-11-11 10:37&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CData%22&quot;&gt;CData&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Salesforce JDBC Driver is a powerful tool that allows you to easily connect-to live Salesforce &amp;amp; Force.com data through any JDBC capable application or tool! With the Driver users can access Salesforce &amp;amp; Force.com the same way that they would connect to any other JDBC data source. The Drivers are completely self-contained; no additional software installation is required.&lt;/p&gt;
+&lt;h2&gt;Enterprise-class JDBC Connectivity&lt;/h2&gt;
+&lt;p&gt;The Salesforce JDBC Driver offers the most natural way to access Salesforce data from any Java/J2EE application. Simply use the Salesforce Driver to connect and access data just as you would access any traditional database. The drivers is completely self-contained - no additional software installation is required!&lt;/p&gt;
+&lt;ul class=&quot;blue_bullets&quot;&gt;&lt;li&gt;Access Salesforce data through widely available tools. The JDBC interface offers the greatest accessibility to Salesforce data from Java based applications and developer technologies.&lt;/li&gt;
+&lt;li&gt;Advanced wire-protocol SSL security for remote connectivity.&lt;/li&gt;
+&lt;li&gt;Faster application deployment and configuration.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Salesforce Application Integration&lt;/h2&gt;
+&lt;p&gt;The Salesforce Driver has the same JDBC architecture as the JDBC drivers for MySQL and OLEDB, including Connection, Statement and ResultSet objects. Because of this you can now access Salesforce data in an easy, familiar way. You can use the Salesforce Driver through popular IDEs (Eclipse, IntelliJ, NetBeans, etc.), in code through familiar classes, and in data controls available through Swing, Eclipse SWT Widgets, etc.&lt;/p&gt;
+&lt;h2&gt;Connect To Salesforce From BI, ETL, &amp;amp; Reporting Tools&lt;/h2&gt;
+&lt;p&gt;&amp;lt;&lt;/p&gt;
+&lt;p&gt;JDBC is the most widely supported interface for connecting Java-based applications with data. All kinds of BI, Reporting, ETL, Database, and Analytics tools offer the ability to read and write data via JDBC connectivity.&lt;/p&gt;
+&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;ul class=&quot;tools&quot;&gt;&lt;li&gt;Aqua Data Studio&lt;/li&gt;
+&lt;li&gt;Cisco Information Server&lt;/li&gt;
+&lt;li&gt;CloverETL&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Crystal Reports&lt;/li&gt;
+&lt;li&gt;DBeaver&lt;/li&gt;
+&lt;li&gt;DbVisualizer&lt;/li&gt;
+&lt;li&gt;IBM WebSphere&lt;/li&gt;
+&lt;li&gt;Informatica&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;JBoss&lt;/li&gt;
+&lt;li&gt;Jetty&lt;/li&gt;
+&lt;li&gt;KNIME&lt;/li&gt;
+&lt;li&gt;NetBeans IDE&lt;/li&gt;
+&lt;li&gt;Oracle WebLogic&lt;/li&gt;
+&lt;li&gt;Oracle WareHouse Builder&lt;/li&gt;
+&lt;li&gt;RazorSQL&lt;/li&gt;
+&lt;li&gt;... and many more!&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 29 Nov 2012 16:12:44 +0000</pubDate>
+ <dc:creator>emadariaga</dc:creator>
+ <guid isPermaLink="false">553630 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/node/553630#comments</comments>
+  </item>
+  <item>
+    <title>Dynamics CRM JDBC Driver</title>
+    <link>https://marketplace.eclipse.org/content/dynamics-crm-jdbc-driver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Dynamics.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emadariaga/listings&quot; title=&quot;Eric Madariaga&quot;&gt;Eric Madariaga&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2015-06-03 12:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2022-11-11 10:37&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CData%22&quot;&gt;CData&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Dynamics CRM JDBC Driver is a powerful tool that allows you to easily connect-to live Microsoft Dynamics CRM data through any JDBC capable application or tool! With the Driver users can access Microsoft Dynamics CRM the same way that they would connect to any other JDBC data source. The Drivers are completely self-contained; no additional software installation is required.&lt;/p&gt;
+&lt;h2&gt;Enterprise-class JDBC Connectivity&lt;/h2&gt;
+&lt;p&gt;The Dynamics CRM JDBC Driver offers the most natural way to access Dynamics CRM data from any Java/J2EE application. Simply use the Dynamics CRM Driver to connect and access data just as you would access any traditional database.&lt;/p&gt;
+&lt;ul class=&quot;blue_bullets&quot;&gt;&lt;li&gt;Access Dynamics CRM data through widely available tools. The JDBC interface offers the greatest accessibility to Dynamics CRM data from Java based applications and developer technologies.&lt;/li&gt;
+&lt;li&gt;Advanced wire-protocol SSL security for remote connectivity.&lt;/li&gt;
+&lt;li&gt;Faster application deployment and configuration.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Dynamics CRM Application Integration&lt;/h2&gt;
+&lt;p&gt;The Dynamics CRM Driver has the same JDBC architecture as the JDBC drivers for MySQL and OLEDB, including Connection, Statement and ResultSet objects. Because of this you can now access Dynamics CRM data in an easy, familiar way. You can use the Dynamics CRM Driver through popular IDEs (Eclipse, IntelliJ, NetBeans, etc.), in code through familiar classes, and in data controls available through Swing, Eclipse SWT Widgets, etc.&lt;/p&gt;
+&lt;h2&gt;Connect To Dynamics CRM From BI, ETL, &amp;amp; Reporting Tools&lt;/h2&gt;
+&lt;p&gt;&amp;lt;&lt;/p&gt;
+&lt;p&gt;JDBC is the most widely supported interface for connecting Java-based applications with data. All kinds of BI, Reporting, ETL, Database, and Analytics tools offer the ability to read and write data via JDBC connectivity.&lt;/p&gt;
+&lt;p&gt;
+ul.tools {list-style:none; font-weight:bold; margin:0px; padding:0px;} .tools li { width: 200px; float:left; padding-left:5px; } .tools li i.fa { color:#287ABB;}&lt;/p&gt;
+&lt;ul class=&quot;tools&quot;&gt;&lt;li&gt;Aqua Data Studio&lt;/li&gt;
+&lt;li&gt;Cisco Information Server&lt;/li&gt;
+&lt;li&gt;CloverETL&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Crystal Reports&lt;/li&gt;
+&lt;li&gt;DBeaver&lt;/li&gt;
+&lt;li&gt;DbVisualizer&lt;/li&gt;
+&lt;li&gt;IBM WebSphere&lt;/li&gt;
+&lt;li&gt;Informatica&lt;/li&gt;
+&lt;li&gt;IntelliJ&lt;/li&gt;
+&lt;li&gt;JBoss&lt;/li&gt;
+&lt;li&gt;Jetty&lt;/li&gt;
+&lt;li&gt;KNIME&lt;/li&gt;
+&lt;li&gt;NetBeans IDE&lt;/li&gt;
+&lt;li&gt;Oracle WebLogic&lt;/li&gt;
+&lt;li&gt;Oracle WareHouse Builder&lt;/li&gt;
+&lt;li&gt;RazorSQL&lt;/li&gt;
+&lt;li&gt;... and many more!&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 03 Jun 2015 16:24:19 +0000</pubDate>
+ <dc:creator>emadariaga</dc:creator>
+ <guid isPermaLink="false">2372676 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/dynamics-crm-jdbc-driver#comments</comments>
+  </item>
+  </channel>
+</rss>

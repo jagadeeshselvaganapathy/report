@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>NotaBene</td>
+      <td>11 Nov 2022, 12:48</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">HooksClass.afterExecution(Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="1212481700">1.212</td>
+              <td class="duration" data-value="1212481700">1.212</td>
+              <td class="duration" data-value="1212481700">1.212</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">HooksClass.beforeExecution()</td>
+              <td>1</td>
+              <td class="duration" data-value="8280599199">8.280</td>
+              <td class="duration" data-value="8280599199">8.280</td>
+              <td class="duration" data-value="8280599199">8.280</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.beneificier_do_transaction_with_valid_amount()</td>
+              <td>1</td>
+              <td class="duration" data-value="46157854800">46.157</td>
+              <td class="duration" data-value="46157854800">46.157</td>
+              <td class="duration" data-value="46157854800">46.157</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.benificinary_accept_the_address()</td>
+              <td>2</td>
+              <td class="duration" data-value="15353504001">15.353</td>
+              <td class="duration" data-value="15353504001">15.512</td>
+              <td class="duration" data-value="30707008002">30.707</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.benificinary_accept_the_amount()</td>
+              <td>1</td>
+              <td class="duration" data-value="13284199500">13.284</td>
+              <td class="duration" data-value="13284199500">13.284</td>
+              <td class="duration" data-value="13284199500">13.284</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.benificinary_accept_transaction()</td>
+              <td>1</td>
+              <td class="duration" data-value="9522444500">9.522</td>
+              <td class="duration" data-value="9522444500">9.522</td>
+              <td class="duration" data-value="9522444500">9.522</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.benificinary_reject_the_address()</td>
+              <td>1</td>
+              <td class="duration" data-value="19217236600">19.217</td>
+              <td class="duration" data-value="19217236600">19.217</td>
+              <td class="duration" data-value="19217236600">19.217</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.benificinary_reject_the_address_from_inbox_with_basic_rule()</td>
+              <td>1</td>
+              <td class="duration" data-value="39046249400">39.046</td>
+              <td class="duration" data-value="39046249400">39.046</td>
+              <td class="duration" data-value="39046249400">39.046</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.benificinary_reject_transaction()</td>
+              <td>1</td>
+              <td class="duration" data-value="8593281601">8.593</td>
+              <td class="duration" data-value="8593281601">8.593</td>
+              <td class="duration" data-value="8593281601">8.593</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.move_from_benificinary_to_orginator()</td>
+              <td>1</td>
+              <td class="duration" data-value="8434501000">8.434</td>
+              <td class="duration" data-value="8434501000">8.434</td>
+              <td class="duration" data-value="8434501000">8.434</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.move_from_benificinary_to_orginator_secound_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="8452170700">8.452</td>
+              <td class="duration" data-value="8452170700">8.452</td>
+              <td class="duration" data-value="8452170700">8.452</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.move_from_benificinary_to_orginator_to_change_into_basic()</td>
+              <td>1</td>
+              <td class="duration" data-value="9323771299">9.323</td>
+              <td class="duration" data-value="9323771299">9.323</td>
+              <td class="duration" data-value="9323771299">9.323</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.move_from_benificinary_to_orginator_to_transaction()</td>
+              <td>1</td>
+              <td class="duration" data-value="8431104500">8.431</td>
+              <td class="duration" data-value="8431104500">8.431</td>
+              <td class="duration" data-value="8431104500">8.431</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.move_from_orginator_to_benificinary()</td>
+              <td>1</td>
+              <td class="duration" data-value="34515312799">34.515</td>
+              <td class="duration" data-value="34515312799">34.515</td>
+              <td class="duration" data-value="34515312799">34.515</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.move_from_orginator_to_benificinary_for_transaction()</td>
+              <td>1</td>
+              <td class="duration" data-value="8313869700">8.313</td>
+              <td class="duration" data-value="8313869700">8.313</td>
+              <td class="duration" data-value="8313869700">8.313</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.move_from_orginator_to_benificinary_secound_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="9081019500">9.081</td>
+              <td class="duration" data-value="9081019500">9.081</td>
+              <td class="duration" data-value="9081019500">9.081</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.move_from_orginator_to_benificinary_secound_time_for_transaction()</td>
+              <td>1</td>
+              <td class="duration" data-value="8454756799">8.454</td>
+              <td class="duration" data-value="8454756799">8.454</td>
+              <td class="duration" data-value="8454756799">8.454</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.move_from_orginator_to_benificinary_third_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="9156303100">9.156</td>
+              <td class="duration" data-value="9156303100">9.156</td>
+              <td class="duration" data-value="9156303100">9.156</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_approve_transaction_from_Inbox()</td>
+              <td>1</td>
+              <td class="duration" data-value="8395720699">8.395</td>
+              <td class="duration" data-value="8395720699">8.395</td>
+              <td class="duration" data-value="8395720699">8.395</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_approve_transaction_from_Inbox_on_fifth_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="8385930099">8.385</td>
+              <td class="duration" data-value="8385930099">8.385</td>
+              <td class="duration" data-value="8385930099">8.385</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_approve_transaction_from_Inbox_on_fourth_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="11479235600">11.479</td>
+              <td class="duration" data-value="11479235600">11.479</td>
+              <td class="duration" data-value="11479235600">11.479</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_approve_transaction_from_Inbox_on_third_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="8460653500">8.460</td>
+              <td class="duration" data-value="8460653500">8.460</td>
+              <td class="duration" data-value="8460653500">8.460</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_cancel_the_transaction()</td>
+              <td>1</td>
+              <td class="duration" data-value="9500645100">9.500</td>
+              <td class="duration" data-value="9500645100">9.500</td>
+              <td class="duration" data-value="9500645100">9.500</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_cancel_the_transaction_in_All()</td>
+              <td>1</td>
+              <td class="duration" data-value="15204191600">15.204</td>
+              <td class="duration" data-value="15204191600">15.204</td>
+              <td class="duration" data-value="15204191600">15.204</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_cancel_transaction_from_All()</td>
+              <td>1</td>
+              <td class="duration" data-value="15243268299">15.243</td>
+              <td class="duration" data-value="15243268299">15.243</td>
+              <td class="duration" data-value="15243268299">15.243</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_check_the_inbox()</td>
+              <td>1</td>
+              <td class="duration" data-value="11691046600">11.691</td>
+              <td class="duration" data-value="11691046600">11.691</td>
+              <td class="duration" data-value="11691046600">11.691</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_checks_inbox()</td>
+              <td>1</td>
+              <td class="duration" data-value="11613407000">11.613</td>
+              <td class="duration" data-value="11613407000">11.613</td>
+              <td class="duration" data-value="11613407000">11.613</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_below_threshhold_value()</td>
+              <td>1</td>
+              <td class="duration" data-value="40678593201">40.678</td>
+              <td class="duration" data-value="40678593201">40.678</td>
+              <td class="duration" data-value="40678593201">40.678</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_below_threshhold_value_in_basic_rule()</td>
+              <td>1</td>
+              <td class="duration" data-value="41864117201">41.864</td>
+              <td class="duration" data-value="41864117201">41.864</td>
+              <td class="duration" data-value="41864117201">41.864</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_valid_amount()</td>
+              <td>1</td>
+              <td class="duration" data-value="40579570300">40.579</td>
+              <td class="duration" data-value="40579570300">40.579</td>
+              <td class="duration" data-value="40579570300">40.579</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_valid_amount_fifth_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="40623950300">40.623</td>
+              <td class="duration" data-value="40623950300">40.623</td>
+              <td class="duration" data-value="40623950300">40.623</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_valid_amount_fourth_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="41206576001">41.206</td>
+              <td class="duration" data-value="41206576001">41.206</td>
+              <td class="duration" data-value="41206576001">41.206</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_valid_amount_secound_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="40462515400">40.462</td>
+              <td class="duration" data-value="40462515400">40.462</td>
+              <td class="duration" data-value="40462515400">40.462</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_valid_amount_secound_time_with_basic_rule()</td>
+              <td>1</td>
+              <td class="duration" data-value="49227706700">49.227</td>
+              <td class="duration" data-value="49227706700">49.227</td>
+              <td class="duration" data-value="49227706700">49.227</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_valid_amount_third_time()</td>
+              <td>1</td>
+              <td class="duration" data-value="41606106400">41.606</td>
+              <td class="duration" data-value="41606106400">41.606</td>
+              <td class="duration" data-value="41606106400">41.606</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_valid_amount_third_time_with_basic_rule()</td>
+              <td>1</td>
+              <td class="duration" data-value="49760102200">49.760</td>
+              <td class="duration" data-value="49760102200">49.760</td>
+              <td class="duration" data-value="49760102200">49.760</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_do_transaction_with_valid_amount_with_basic_rule()</td>
+              <td>1</td>
+              <td class="duration" data-value="40713104700">40.713</td>
+              <td class="duration" data-value="40713104700">40.713</td>
+              <td class="duration" data-value="40713104700">40.713</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_goes_to_application_Notabene()</td>
+              <td>1</td>
+              <td class="duration" data-value="1215200">0.001</td>
+              <td class="duration" data-value="1215200">0.001</td>
+              <td class="duration" data-value="1215200">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_set_the_basic_rule_for_transaction()</td>
+              <td>1</td>
+              <td class="duration" data-value="13631539700">13.631</td>
+              <td class="duration" data-value="13631539700">13.631</td>
+              <td class="duration" data-value="13631539700">13.631</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_set_the_norule_for_transaction()</td>
+              <td>1</td>
+              <td class="duration" data-value="27721203900">27.721</td>
+              <td class="duration" data-value="27721203900">27.721</td>
+              <td class="duration" data-value="27721203900">27.721</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">NoRuleSingleFlow.orginator_with_valid_credentials_they_login()</td>
+              <td>1</td>
+              <td class="duration" data-value="51556253100">51.556</td>
+              <td class="duration" data-value="51556253100">51.556</td>
+              <td class="duration" data-value="51556253100">51.556</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>41</td>
+            <td>42</td>
+            <td class="duration">21.423</td>
+            <td class="duration">51.556</td>
+            <td class="duration">14:59.790</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

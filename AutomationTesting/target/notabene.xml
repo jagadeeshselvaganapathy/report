@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.073275">
+<testcase classname="validating the notabene transaction by automation" name="validating the transaction with no rule" time="0.073275">
+<skipped><![CDATA[Given orginator goes to application Notabene................................undefined
+When orginator with valid credentials they login............................undefined
+Then orginator set the norule for transaction...............................undefined
+When orginator do transaction with below threshhold value...................undefined
+Then orginator check the inbox..............................................undefined
+When orginator do transaction with valid amount.............................undefined
+Then orginator cancel the transaction.......................................undefined
+When orginator do transaction with valid amount secound time................undefined
+Then orginator approve transaction from Inbox...............................undefined
+And orginator cancel transaction from All...................................undefined
+When orginator do transaction with valid amount third time..................undefined
+Then orginator approve transaction from Inbox on third time.................undefined
+Then move from orginator to benificinary....................................undefined
+And benificinary reject the address.........................................undefined
+Then move from benificinary to orginator....................................undefined
+When orginator do transaction with valid amount fourth time.................undefined
+Then orginator approve transaction from Inbox on fourth time................undefined
+Then move from orginator to benificinary secound time.......................undefined
+And benificinary accept the address.........................................undefined
+Then benificinary reject transaction........................................undefined
+Then move from benificinary to orginator secound time.......................undefined
+When orginator do transaction with valid amount fifth time..................undefined
+Then orginator approve transaction from Inbox on fifth time.................undefined
+Then move from orginator to benificinary third time.........................undefined
+And benificinary accept the address.........................................undefined
+Then benificinary accept transaction........................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

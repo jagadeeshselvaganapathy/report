@@ -1,0 +1,30 @@
+package com.demo;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+import com.mailosaur.MailosaurClient;
+import com.mailosaur.MailosaurException;
+import com.mailosaur.models.*;
+import java.io.IOException;
+
+public class AppTest {
+  @Test public void testExample() throws IOException, MailosaurException {
+    // Available in the API tab of a server
+    String apiKey = "YOUR_API_KEY";
+    String serverId = "SERVER_ID";
+    String serverDomain = "SERVER_DOMAIN";
+
+    MailosaurClient mailosaur = new MailosaurClient(apiKey);
+
+    MessageSearchParams params = new MessageSearchParams();
+    params.withServer(serverId);
+
+    SearchCriteria criteria = new SearchCriteria();
+    criteria.withSentTo("asdas@" + serverDomain);
+
+    Message message = mailosaur.messages().get(params, criteria);
+
+    assertNotNull(message);
+    assertEquals("My email subject", message.subject());
+  }
+}

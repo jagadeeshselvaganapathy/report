@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="934.378515">
+<testcase classname="validating the notabene transaction by automation" name="validating the transaction with no rule" time="934.378515">
+<failure message="junit.framework.ComparisonFailure: verified expected:&lt;[1.5]200&gt; but was:&lt;[]200&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at com.stepdefinition.NoRuleSingleFlow.beneificier_do_transaction_with_valid_amount(NoRuleSingleFlow.java:691)&#13;&#10;&#9;at ✽.beneificier do transaction with valid amount(file:src/test/resources/Features/TX_01.feature:44)&#13;&#10;"><![CDATA[Given orginator goes to application Notabene................................passed
+When orginator with valid credentials they login............................passed
+Then orginator set the norule for transaction...............................passed
+When orginator do transaction with below threshhold value...................passed
+Then orginator check the inbox..............................................passed
+When orginator do transaction with valid amount.............................passed
+Then orginator cancel the transaction.......................................passed
+When orginator do transaction with valid amount secound time................passed
+Then orginator approve transaction from Inbox...............................passed
+And orginator cancel transaction from All...................................passed
+When orginator do transaction with valid amount third time..................passed
+Then orginator approve transaction from Inbox on third time.................passed
+Then move from orginator to benificinary....................................passed
+And benificinary reject the address.........................................passed
+Then move from benificinary to orginator....................................passed
+When orginator do transaction with valid amount fourth time.................passed
+Then orginator approve transaction from Inbox on fourth time................passed
+Then move from orginator to benificinary secound time.......................passed
+And benificinary accept the address.........................................passed
+Then benificinary reject transaction........................................passed
+Then move from benificinary to orginator secound time.......................passed
+When orginator do transaction with valid amount fifth time..................passed
+Then orginator approve transaction from Inbox on fifth time.................passed
+Then move from orginator to benificinary third time.........................passed
+And benificinary accept the address.........................................passed
+Then benificinary accept transaction........................................passed
+Then move from benificinary to orginator to change into basic...............passed
+Then orginator set the basic rule for transaction...........................passed
+When orginator do transaction with below threshhold value in basic rule.....passed
+Then orginator checks inbox.................................................passed
+When orginator do transaction with valid amount with basic rule.............passed
+Then orginator cancel the transaction in All................................passed
+When orginator do transaction with valid amount secound time with basic rule.passed
+Then move from orginator to benificinary for transaction....................passed
+And benificinary reject the address from inbox with basic rule..............passed
+Then move from benificinary to orginator to transaction.....................passed
+When orginator do transaction with valid amount third time with basic rule..passed
+Then move from orginator to benificinary secound time for transaction.......passed
+And benificinary accept the amount..........................................passed
+Then beneificier do transaction with valid amount...........................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: verified expected:<[1.5]200> but was:<[]200>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at com.stepdefinition.NoRuleSingleFlow.beneificier_do_transaction_with_valid_amount(NoRuleSingleFlow.java:691)
+	at ✽.beneificier do transaction with valid amount(file:src/test/resources/Features/TX_01.feature:44)
+]]></failure>
+</testcase>
+</testsuite>

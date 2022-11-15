@@ -1,0 +1,10 @@
+package com.contantss;
+
+public class ConstantsProps {
+	
+	public static String APP_URL;
+	public static String APP_USERNAME;
+	
+	
+
+}

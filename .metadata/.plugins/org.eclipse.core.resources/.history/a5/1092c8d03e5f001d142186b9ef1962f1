@@ -1,0 +1,26 @@
+package com.utils;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
+public class CommonUtils {
+	
+	//public static void loadProperties() throws IOException {
+
+		
+	//}
+
+	public static void loadProperties() throws IOException {
+		// TODO Auto-generated method stub
+
+		FileReader reader = new FileReader("config.properties");
+		Properties property = new Properties();
+		property.load(reader);
+		property.getProperty("url");
+		property.getProperty("userName");
+		
+	}
+
+}

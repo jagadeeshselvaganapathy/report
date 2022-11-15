@@ -1,0 +1,27 @@
+package com.utils;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
+import com.notabene.constants.Constants;
+
+public class CommonUtils {
+
+	// public static void loadProperties() throws IOException {
+
+	// }
+
+	public static void loadProperties() throws IOException {
+		// TODO Auto-generated method stub
+
+		FileReader reader = new FileReader("config.properties");
+		Properties property = new Properties();
+		property.load(reader);
+		Constants.APP_URL = property.getProperty("url");
+		Constants.APP_USERNAME = property.getProperty("userName");
+
+	}
+
+}
